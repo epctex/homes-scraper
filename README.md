@@ -20,7 +20,7 @@ This scraper is under active development. If you have any feature requests you c
 
 The input of this scraper should be JSON containing the list of pages on Homes.com that should be visited. Possible fields are:
 
-- `startUrls`: (Optional) (Array) List of Homes.com URLs. You should only provide search, list, agent or property detail URLs.
+- `startUrls`: (Required) (Array) List of Homes.com URLs. You should only provide search, list, agent or property detail URLs.
 
 - `endPage`: (Optional) (Number) Final number of page that you want to scrape. Default is `Infinite`. This is applies to all `search` request and `startUrls` individually.
 
